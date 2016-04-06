@@ -1,0 +1,24 @@
+{
+    "name": "mcgiany/slim-starter",
+    "description": "Simple Slim framework starter configuration.",
+    "keywords": ["microframework","rest","router", "psr7"],
+    "homepage": "https://github.com/mcgiany/slim-starter",
+    "authors": [
+        {
+            "name": "Jan Nemecek",
+            "email": "nemecek.jano@gmail.com.com",
+            "homepage": "http://www.jannemecek.sk/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib"
+        }
+    }
+}
