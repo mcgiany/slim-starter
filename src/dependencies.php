@@ -41,6 +41,9 @@ $container['errorHandler'] = function ($c) {
 
 // Data repository
 $container['db'] = function ($c) {
+    if (!$c->get('settings')['useDatabase'])
+        return null;
+    
     $connection = $c->get('settings')['dbConnection'];
     return new Lib\DataRepository(Lib\ConnectionManager::GetConnection($connection));
 };

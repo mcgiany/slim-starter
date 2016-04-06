@@ -14,6 +14,8 @@ return [
             'path' => __DIR__ . '/../logs/app.log',
         ],
 
+        'useDatabase' => true,
+
         // database connection
         'dbConnection' => [
             'host' => 'localhost',
