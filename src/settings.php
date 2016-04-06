@@ -19,7 +19,7 @@ return [
             'host' => 'localhost',
             'login' => 'root',
             'password' => 'password',
-            'database' => 'timetracker',
+            'database' => 'your_db',
             'port' => '8889'
         ]
     ],
