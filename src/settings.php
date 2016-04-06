@@ -18,7 +18,7 @@ return [
         'dbConnection' => [
             'host' => 'localhost',
             'login' => 'root',
-            'password' => 'satelit.01',
+            'password' => 'password',
             'database' => 'timetracker',
             'port' => '8889'
         ]
